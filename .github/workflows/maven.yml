@@ -51,6 +51,6 @@ jobs:
         category: "/language:java-kotlin"
 
     - name: Update dependency graph
-      uses: advanced-security/maven-dependency-submission-action@v4
+      uses: advanced-security/maven-dependency-submission-action@v5
       with:
         directory: ./unique-attribute-validator-provider
